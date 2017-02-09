@@ -26,3 +26,8 @@ LVS设计，因为LVS是个重量级，高效稳定的四层转发，但它不�
 防御功能（快速解析，过滤匹配） haproxy > nginx > ats > squid > varnish
 支持读取文件匹配，支持热加载，可插拔式的缓存组件灵活应对业务
 Haproxy+Varnish的组合：防御型反向代理缓存方案
+#大规模日志分析
+Haproxy+rsyslog+nosql+hadoop
+后端管理不直观
+OpenCDN前端控制
+
